@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../js/cursorStar.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>contact 페이지</title>
+</head>
+<body>
+    <div class="bg_co">
+        <div class="hdWrap">
+            <header>
+                <nav>
+                    <ul>
+                        <li id="menu1" class="nav_list" onclick="changeColor('menu1')"><a href="./main.html">MAIN</a></li>
+                        <li id="menu2" class="nav_list" onclick="changeColor('menu2')"><a href="./skills.html">SKILLS</a></li>
+                        <li id="menu3" class="nav_list" onclick="changeColor('menu3')"><a href="./contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+<!--                <div class="sun_logo">-->
+<!--                    <img src="../image/logo_icon.svg" alt=""/>-->
+<!--                </div>-->
+                <div class="mobile_nav_toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
+            <div class="nav_mobile">
+                <ul>
+                    <li><a href="./main.html">MAIN</a></li>
+                    <li><a href="./skills.html">SKILLS</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contact_bg">
+            <div class="contactWrap">
+                <h3 class="contact_title" data-aos="fade-down"
+                    data-aos-duration="800">CONTACT</h3>
+                <main>
+                    <div class="texts_info">
+                        <div class="text">
+                            <img src="../image/email_icon.svg" alt="이메일 아이콘"/>
+                            <div class="left_text">EMAIL</div>
+                            <div class="right_text"><a href="mailto:nayuni2222@gmail.com">nayuni2222@gmail.com</a></div>
+                        </div>
+                        <div class="text">
+                            <img src="../image/call_icon.svg" alt="전화 아이콘"/>
+                            <div class="left_text">PHONE</div>
+                            <div class="right_text"><a href="tel:01092697551">010.9269.7551</a></div>
+                        </div>
+                        <div class="text">
+                            <img src="../image/git_icon.svg" alt="깃 아이콘"/>
+                            <div class="left_text">GIT</div>
+                            <div class="right_text"><a href="https://github.com/yunii2222">https://github.com/yunii2222</a></div>
+                        </div>
+                    </div>
+                    <div class="img_info">
+                        <img src="../image/sub_ch.svg" alt="" />
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+    <div class="ftWrap">
+        <footer>
+            <p>Portfolio ©2024 NAYOON.ALL RIGHTS RESERVED.</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
